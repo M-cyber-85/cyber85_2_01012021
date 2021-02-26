@@ -1,126 +1,172 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="css/style.css" />
-        <title>Reservia, votre hébergement de vacances</title>
-        <link href="https://fr.allfont.net/allfont.css?fonts=raleway-regular" rel="stylesheet" type="text/css" />
-        <script src="https://kit.fontawesome.com/416e4a1113.js" crossorigin="anonymous"></script>
-    </head>
 
-    <!-- corps de la page -->
-    <body>
-            <p><img src="images/petit_logo_reservia_desktop.png" alt="reservia"></p>
-                <h1><strong>Trouvez votre hébergement pour des vacances de rêves</strong></h1>
-                <p><em>plein centre ville ou en pleine nature</em></p>
-            <div id="container-bouton">
-                <input type="search" class="text">
-                    <i class="fas fa-map-marker-alt"></i> <button type="button" class="btn btn-primary">Rechercher</button> 
-                <div class="searchFilters">
-                    <h4 class="searchFilterMoneysearchFiltersTitle">Filtres</h4>
-                </div>
-                    <div class="searchFilterMoney"></div>
-                        <p><i class="fas fa-money-bill-wave"></i> Economique</p>
-                    </div>
-                        <div class="searchFilterRomantic"></div>
-                            <p><i class="fas fa-heart"></i> Romantique</p>
-                        </div>
-                <div class="searchFilterAnimal"></div>
-                    <p><i class="fas fa-dog"></i> Animaux autorisés</p>
-                </div>
-            </div>
-        <!-- hébergements -->
-        <section id="hebergement-section">
-            <div id="hebergement-global">
-                <h1><strong>Hébergements à Marseille</strong></h1>          
-                <div id="container-hebergement">
-                    <div>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Reservia, votre hébergement de vacances</title>
+    <link href="https://fr.allfont.net/allfont.css?fonts=raleway-regular" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/416e4a1113.js" crossorigin="anonymous"></script>
+</head>
+<!-- corps de la page -->
+<body>
+    <p><img src="images/petit_logo_reservia_desktop.png" alt="reservia"></p>
+    <h1><strong>Trouvez votre hébergement pour des vacances de rêves</strong></h1>
+    <p><em>plein centre ville ou en pleine nature</em></p>
+    <div id="container-bouton">
+        <i class="fas fa-map-marker-alt"></i>
+        <input type="search" class="text">
+        <button type="button" class="btn btn-primary">Rechercher</button>
+    </div>
+    <div class="container-filtres">
+        <p class="searchFilterMoneysearchFiltersTitle">Filtres</p>
+        <div class="filtre">
+            <i class="fas fa-money-bill-wave"></i> Economique
+        </div>
+        <div class="filtre">
+            <i class="fas fa-child"></i> Familial
+        </div>
+        <div class="filtre">
+            <i class="fas fa-heart"></i> Romantique
+        </div>
+        <div class="filtre">
+            <i class="fas fa-dog"></i> Animaux autorisés
+        </div>
+    </div>
+    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    <!-- hébergements -->
+    <section id="hebergement-section">
+        <div id="hebergement-global">
+            <h1><strong>Hébergements à Marseille</strong></h1>
+            <div id="container-hebergement">
+                <div>
+                    <a href="#">
                         <figure>
-                            <img src="images/hotels/auberge-de-la-cannebiere.jpg" alt="chambre hotel" title="Auberge La Cannebière">
+                            <img src="images/hotels/auberge-de-la-cannebiere.jpg" alt="chambre hotel"
+                                title="Auberge La Cannebière">
                             <figcaption>Auberge La Cannebière</figcaption>
+                            <p>Nuit à partir de 25€</p>
                         </figure>
-                    </div>
-                    <div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
                         <figure>
-                            <img src="images/hotels/hotel-du-port.jpg" alt="chambre hotel"title="Hôtel du Port">
+                            <img src="images/hotels/hotel-du-port.jpg" alt="chambre hotel" title="Hôtel du Port">
                             <figcaption>Hôtel du Port</figcaption>
                         </figure>
-                    </div>
-                    <div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
                         <figure>
-                            <img src="images/hotels/hotel-les-mouettes.jpg" alt="chambre hotel"title="Hôtel les Mouettes">
+                            <img src="images/hotels/hotel-les-mouettes.jpg" alt="chambre hotel"
+                                title="Hôtel les Mouettes">
                             <figcaption>Hôtel les Mouettes</figcaption>
                         </figure>
-                    </div>
-                    <div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
                         <figure>
-                            <img src="images/hotels/hotel-de-la-mer.jpg" alt="chambre hotel"title="Hôtel de la Mer">
+                            <img src="images/hotels/hotel-de-la-mer.jpg" alt="chambre hotel" title="Hôtel de la Mer">
                             <figcaption>Hôtel de la Mer</figcaption>
                         </figure>
-                    </div>
-                    <div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
                         <figure>
-                            <img src="images/hotels/auberge-le-panier.jpg" alt="chambre hotel"title="Auberge le Panier">
+                            <img src="images/hotels/auberge-le-panier.jpg" alt="chambre hotel"
+                                title="Auberge le Panier">
                             <figcaption>Auberge le Panier</figcaption>
                         </figure>
-                    </div>
-                    <div>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
                         <figure>
-                            <img src="images/hotels/hotel-chez-amina.jpg" alt="chambre hotel"title="Hôtel chez Amina">
+                            <img src="images/hotels/hotel-chez-amina.jpg" alt="chambre hotel" title="Hôtel chez Amina">
                             <figcaption>Hôtel chez Amina</figcaption>
                         </figure>
-                    </div>
-                </div> 
-            </div> 
-            <!--les plus populaires-->
-            <aside id="hebergement-aside">
-                <h2>Les plus populaires</h2>
-                <div class="hebergement-images-populaires">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--les plus populaires-->
+        <aside id="hebergement-aside">
+            <h2>Les plus populaires</h2>
+            <div class="hebergement-images-populaires">
+                <a href="#">
                     <figure>
-                        <img src="images/hotels/hotel-le-soleil-du-matin.jpg" alt="chambre hotel"title="Hôtel le soleil du matin">
+                        <img src="images/hotels/hotel-le-soleil-du-matin.jpg" alt="chambre hotel"
+                            title="Hôtel le soleil du matin">
                         <figcaption>Hôtel le soleil du matin</figcaption>
                     </figure>
-                </div>
-                <div class="hebergement-marseille">
+                </a>
+            </div>
+            <div class="hebergement-marseille">
+                <a href="#">
                     <figure>
-                        <img src="images/hotels/au-coeur-de-leau-chambres-dhotes.jpg" alt="chambre hotel"title="Chambres d'hôtes au coeur de l'eau">
+                        <img src="images/hotels/au-coeur-de-leau-chambres-dhotes.jpg" alt="chambre hotel"
+                            title="Chambres d'hôtes au coeur de l'eau">
                         <figcaption>Chambres d'hôtes</figcaption>
                     </figure>
+                </a>
+                <a href="#">
                     <figure>
-                        <img src="images/hotels/hotel-tout-bleu-et-blanc.jpg" alt="chambre hotel"title="Hôtel tout bleu et blanc">
+                        <img src="images/hotels/hotel-tout-bleu-et-blanc.jpg" alt="chambre hotel"
+                            title="Hôtel tout bleu et blanc">
                         <figcaption>Hôtel tout bleu et blanc</figcaption>
                     </figure>
-                </div>               
-            </aside>
-        </section>
-        <section id="section 2">
-            <h3>Activités à Marseille</h3>
-            <div class="activités-images-marseille">
+                </a>
+            </div>
+        </aside>
+    </section>
+    <section id="activites-section">
+        <h3>Activités à Marseille</h3>
+        <div class="activites-images-marseille">
+            <a href="#">
                 <figure>
-                    <img src="images/activités/vieux-port.jpg" alt="activités"title="Vieux Port">
+                    <img src="images/activites/vieux-port.jpg" class="grande-taille" alt="Vieux Port"
+                        title="Vieux Port">
                     <figcaption>Vieux Port</figcaption>
-                </figure>       
+                </figure>
+            </a>
+            <a href="#">
                 <figure>
-                    <img src="images/activités/fort-de-pomegues.jpg" alt="activités"title="Fort de Pomegues">
+                    <img src="images/activites/fort-de-pomegues.jpg" alt="Fort de Pomegues" title="Fort de Pomegues">
                     <figcaption>Fort de Pomegue</figcaption>
                 </figure>
+            </a>
+            <a href="#">
                 <figure>
-                    <img src="images/activités/iles-de-frioul.jpg" alt="activités"title="Iles de Frioul">
+                    <img src="images/activites/iles-de-frioul.jpg" alt="Iles de Frioul" title="Iles de Frioul">
                     <figcaption>Iles de Frioul</figcaption>
                 </figure>
+            </a>
+            <a href="#">
                 <figure>
-                    <img src="images/activités/parc-national-des-calanques.jpg" alt="activités"title="Parc National des Calanques">
+                    <img src="images/activites/parc-national-des-calanques.jpg" class="grande-taille"
+                        alt="Parc National des Calanques" title="Parc National des Calanques">
                     <figcaption>Parc National des Calanques</figcaption>
                 </figure>
+            </a>
+            <a href="#">
                 <figure>
-                    <img src="images/activités/notre-dame-de-la-garde.jpg" alt="activités"title="Notre-Dame-de-la-Garde">
+                    <img src="images/activites/notre-dame-de-la-garde.jpg" alt="Notre-Dame-de-la-Garde"
+                        title="Notre-Dame-de-la-Garde">
                     <figcaption>Notre-Dame-de-la-Garde</figcaption>
                 </figure>
+            </a>
+            <a href="#">
                 <figure>
-                    <img src="images/activités/parc-longchamps.jpg" alt="activités"title="Parc Longchamps">
+                    <img src="images/activites/parc-longchamps.jpg" alt="Parc Longchamps" title="Parc Longchamps">
                     <figcaption>Parc Longchamps</figcaption>
                 </figure>
-            </div>           
-        </section>        
-    </body>
+            </a>
+        </div>
+    </section>
+</body>
+
 </html>
